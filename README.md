@@ -18,7 +18,7 @@ proyecto_final_curso
  Diseño de la base de datos
 
  La siginte base de datos esta diseñada para verificar algunas marcas de vehiculos con diferentes tipo de combustible que tipo de frenos tiene o tipo de traccion. 
-´´´sql
+```sql
 CREATE TABLE IF NOT EXISTS public.cat_marca
 (
     id_marca serial NOT NULL,
@@ -121,7 +121,7 @@ ALTER TABLE IF EXISTS public.tbl_autos
     NOT VALID;
 
 END;
-´´´
+```
  ## Sesión 02: Arquitectura y Componentes Internos de PostgreSQL
  
 
@@ -137,9 +137,45 @@ Aperendi en clase a crear una tabla desde SQL Shell
  ![img](./imagenes/Captura%20de%20pantalla%202024-06-17%20115303.png)
 
 ## Sesión 04: Diseño de Bases de Datos en PostgreSQL
-# Modelado de Datos
+# 1.- Modelado de Datos
 Aprendi a crear esquemas y tablas   
  ![img](./imagenes/proyecto.pgerd.png)
  ![img](./imagenes/creacion%20de%20tablas.png)
+
+ # 2.- Relaciones y Llaves
+
+Llaves primarias y foráneas
+
+1.- Llave Primaria (Primary Key):
+
+* Es un campo o conjunto de campos en una tabla que identifica de manera única cada registro.
+* Garantiza que no haya duplicados y permite un acceso rápido a los datos.
+* Por ejemplo, en una tabla de “Clientes”, el campo “ID de cliente” podría ser la llave primaria.
+
+2.- Llave Foránea (Foreign Key):
+* La llave foránea es un campo en una tabla que se relaciona con la llave primaria de otra tabla.
+* Establece una conexión entre dos tablas, permitiendo consultas y operaciones relacionales.
+* Por ejemplo, en una tabla de “Pedidos”, el campo “ID de cliente” podría ser una llave foránea que se relaciona con la tabla de “Clientes”.
+
+## 3.- Indices y Vistas
+
+# Tipos de índices y su uso
+
+1.- Índices (Indexes):
+* Los índices son estructuras que mejoran la velocidad de las consultas en una tabla.
+* Para crear un índice en PostgreSQL, puedes usar la sentencia CREATE INDEX.
+* Existen varios tipos de índices, como 
+
+- B-tree: (ARBOL):
+Se ajustan a las situaciones más comunes. también al definir una Clave Primaria (PRIMARY KEY) sobre el campo de una tabla, este en sí se constituye como un índice, generando una restricción que impide que este campo se repita (UNIQUE) y que contenga valores nulos (NOT  NULL).
+- Hash, 
+GiST  
+GIN, 
+cada uno adaptado a diferentes tipos de consultas.
+
+Creación y uso de vistas
+
+
+
 
 # Consultas SQL
