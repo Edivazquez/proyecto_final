@@ -136,15 +136,10 @@ Comandos básicos y avanzados
 Aperendi en clase a crear una tabla desde SQL Shell
  ![img](./imagenes/Captura%20de%20pantalla%202024-06-17%20115303.png)
 
-
-
-Interfaz de usuario
-Navegación y administración básica
-
-
-
- # Diseño de la base de datos
+## Sesión 04: Diseño de Bases de Datos en PostgreSQL
+# Modelado de Datos
+Aprendi a crear esquemas y tablas   
  ![img](./imagenes/proyecto.pgerd.png)
-
+ ![img](./imagenes/creacion%20de%20tablas.png)
 
 # Consultas SQL
