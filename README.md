@@ -212,7 +212,7 @@ Optimizar el rendimiento de PostgreSQL y sus consultas mediante técnicas de aju
 
 # Tipos de índices y su uso
 
-    Configura los parámetros para optimizar el rendimiento:
+Configura los parámetros para optimizar el rendimiento:
 - shared_buffers: Asigna memoria a los búferes compartidos.
 - work_mem: Ajusta la memoria para operaciones de ordenamiento y hash.
 - effective_cache_size: Define la memoria para el almacenamiento en caché de datos.
