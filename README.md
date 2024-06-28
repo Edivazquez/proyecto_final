@@ -15,8 +15,10 @@ proyecto_final_curso
 
 ## 1.- Obtención de datos
 
-![img](./imagenes/descargar%20base%20de%20datos.png)
-Los datos los obtuve fueron de la [pagina](https://coche.car2db.com/excel/) la pag. permite descargar varias bases de datos. 
+
+Los datos los obtuve fueron de la [pagina](https://coche.car2db.com/excel/) la pag. permite descargar varias bases de datos.
+
+![img](./imagenes/descargar%20base%20de%20datos.png) 
 
 # 1.- Modelado de Datos
 
