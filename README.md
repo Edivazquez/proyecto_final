@@ -11,12 +11,13 @@ proyecto_final_curso
 • 2016: PostgreSQL 9.6 (mejoras en paralelización de consultas)
 • 2020: PostgreSQL 13 (optimización de índices, nuevas características de seguridad)
 
+![img](./imagenes/Tiempo.jpg)
+
 ## 1.- Obtención de datos
 
 Creación y uso de vistas
 
  ![img](./imagenes/proyecto.pgerd.png)
- ![img](./imagenes/creacion%20de%20tablas.png)
 
 Comandos básicos y avanzados
 Aperendi en clase a crear una tabla desde SQL Shell
@@ -26,7 +27,7 @@ Aperendi en clase a crear una tabla desde SQL Shell
  ![img](./imagenes/Captura%20de%20pantalla%202024-06-17%20115303.png)
 
  
-![img](./imagenes/Tiempo.jpg)
+
 
  Diseño de la base de datos
 
@@ -136,7 +137,8 @@ ALTER TABLE IF EXISTS public.tbl_autos
 
 END;
 ```
-
+ ![img](./imagenes/creacion%20de%20tablas.png)
+ 
  ## Configuración del entorno SQL
 
  
