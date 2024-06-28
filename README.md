@@ -18,7 +18,7 @@ proyecto_final_curso
  Diseño de la base de datos
 
  La siginte base de datos esta diseñada para verificar algunas marcas de vehiculos con diferentes tipo de combustible que tipo de frenos tiene o tipo de traccion. 
-
+´´´sql
 CREATE TABLE IF NOT EXISTS public.cat_marca
 (
     id_marca serial NOT NULL,
@@ -121,7 +121,7 @@ ALTER TABLE IF EXISTS public.tbl_autos
     NOT VALID;
 
 END;
-
+´´´
  ## Sesión 02: Arquitectura y Componentes Internos de PostgreSQL
  
 
