@@ -248,6 +248,8 @@ Ejecuta la consulta en pgAdmin utilizando EXPLAIN ANALYZE.
 
 Si el análisis muestra un escaneo secuencial, crea un índice en la columna nombre.
 
+    Creamos una consulta 
+![img](./imagenes/1.-%20consulta%20de%20ordenes.png)
 
 
  ## Preparando un proceso de réplica y alta disponibilidad
