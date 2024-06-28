@@ -52,7 +52,7 @@ Aperendi en clase a crear una tabla desde SQL Shell
 
  Diseño de la base de datos
 
- La siginte base de datos esta diseñada para verificar algunas marcas de vehiculos con diferentes tipo de combustible que tipo de frenos tiene o tipo de traccion. 
+ La siguiente base de datos esta diseñada para verificar algunas marcas de vehiculos con diferentes tipo de combustible que tipo de frenos tiene o tipo de traccion. 
 
 ```sql
 CREATE TABLE IF NOT EXISTS public.cat_marca
@@ -158,6 +158,8 @@ ALTER TABLE IF EXISTS public.tbl_autos
 
 END;
 ```
+creacion de tablas en pgadmin
+
  ![img](./imagenes/creacion%20de%20tablas.png)
 
  ## Configuración del entorno SQL
