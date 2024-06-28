@@ -3,7 +3,7 @@ proyecto_final_curso
  
  *Autor* Edgar Vazquez Ramirez
 
- Descripcion 
+ ## Descripcion 
 • 1986: Inicio del proyecto POTGRES
 • 1996: Renombramiento a PostgreSQL 6.0
 • 2005: Lanzamiento de PostgreSQL 8.0 (soporte nativo para Windows)
@@ -11,7 +11,8 @@ proyecto_final_curso
 • 2016: PostgreSQL 9.6 (mejoras en paralelización de consultas)
 • 2020: PostgreSQL 13 (optimización de índices, nuevas características de seguridad)
 
-Caracteristicas
+## Caracteristicas
+
 ![img](./imagenes/Tiempo.jpg)
 
  Diseño de la base de datos
@@ -120,5 +121,13 @@ ALTER TABLE IF EXISTS public.tbl_autos
     NOT VALID;
 
 END;
+
+ ## Sesión 02: Arquitectura y Componentes Internos de PostgreSQL
+ #Comprender la estructura general del servidor PostgreSQL y las bases de datos.
+
+
+ # Diseño de la base de datos
+ ![img](./diagrama%20entidad%20relacion/proyecto.pgerd.png)
+
 
 # Consultas SQL
