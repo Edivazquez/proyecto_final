@@ -11,13 +11,14 @@ proyecto_final_curso
 • 2016: PostgreSQL 9.6 (mejoras en paralelización de consultas)
 • 2020: PostgreSQL 13 (optimización de índices, nuevas características de seguridad)
 
-## Caracteristicas
+## 1.- Obtención de datos
 
 ![img](./imagenes/Tiempo.jpg)
 
  Diseño de la base de datos
 
  La siginte base de datos esta diseñada para verificar algunas marcas de vehiculos con diferentes tipo de combustible que tipo de frenos tiene o tipo de traccion. 
+
 ```sql
 CREATE TABLE IF NOT EXISTS public.cat_marca
 (
@@ -122,23 +123,41 @@ ALTER TABLE IF EXISTS public.tbl_autos
 
 END;
 ```
- ## Sesión 02: Arquitectura y Componentes Internos de PostgreSQL
+
+ ## Configuración del entorno SQL
+
  
-
-## Sesión 03: Herramientas y Utilidades (PSQL & PgAdmin 4)
-
-Instalación de PostgreSQL y PgAdmin 4
-
-* Instalación en Windows
-
-
 Comandos básicos y avanzados
 Aperendi en clase a crear una tabla desde SQL Shell
  ![img](./imagenes/Captura%20de%20pantalla%202024-06-17%20115303.png)
 
-## Sesión 04: Diseño de Bases de Datos en PostgreSQL
+## Diseño de la base de datos
+
 # 1.- Modelado de Datos
-Aprendi a crear esquemas y tablas   
+
+* Modelo Conceptual:
+
+El diagrama de entidad-relación (DER) 
+Define las entidades, atributos y relaciones.
+ Por ejemplo:
+Entidades: Cliente, Producto, Pedido.
+Atributos: ID, Nombre, Precio.
+Relaciones: Cliente realiza Pedido, Pedido contiene Producto.
+
+* Modelo Lógico:
+Traduce el modelo conceptual a un modelo lógico utilizando el modelo relacional.
+Define tablas, claves primarias y foráneas.
+Normaliza las tablas para evitar redundancia y anomalías.
+
+
+* Modelo Físico:
+Decide sobre el motor de base de datos (PostgreSQL).
+Crea las tablas en SQL con las columnas y restricciones adecuadas.
+
+* Integridad y Seguridad:
+Agrega restricciones de integridad (claves primarias, foráneas, restricciones UNIQUE, etc.).
+Define permisos de acceso para usuarios y roles.
+
  ![img](./imagenes/proyecto.pgerd.png)
  ![img](./imagenes/creacion%20de%20tablas.png)
 
@@ -177,5 +196,45 @@ Creación y uso de vistas
 
 
 
+ ## Diseño de la base de datos
 
-# Consultas SQL
+
+
+
+
+
+ ## Gestión de usuarios
+
+
+
+
+
+
+ ## Creando una copia de seguridad
+
+
+
+ ## Optimizando consultas
+
+
+
+
+ ## Preparando un proceso de réplica y alta disponibilidad
+
+
+
+ ## Preparando el monitoreo
+
+
+
+ ## Migración de datos
+
+
+
+
+
+ ## Presentación del proyecto
+
+
+
+
