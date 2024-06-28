@@ -26,10 +26,10 @@ Los datos los obtuve fueron de la [pagina](https://coche.car2db.com/excel/) la p
 
 El diagrama de entidad-relación (DER) 
 Define las entidades, atributos y relaciones.
- Por ejemplo:
-Entidades: Cliente, Producto, Pedido.
-Atributos: ID, Nombre, Precio.
-Relaciones: Cliente realiza Pedido, Pedido contiene Producto.
+Por ejemplo:
+* Entidades: Cliente, Producto, Pedido. 
+* Atributos: ID, Nombre, Precio.
+* Relaciones: Cliente realiza Pedido, Pedido contiene Producto.
 
 * Modelo Lógico:
 Traduce el modelo conceptual a un modelo lógico utilizando el modelo relacional.
