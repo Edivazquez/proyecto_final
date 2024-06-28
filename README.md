@@ -144,7 +144,7 @@ Navegación y administración básica
 
 
  # Diseño de la base de datos
- ![img](./diagrama%20entidad%20relacion/proyecto.pgerd.png)
+ ![img](./imagenes/Captura%20de%20pantalla%202024-06-17%20115303.png)
 
 
 # Consultas SQL
