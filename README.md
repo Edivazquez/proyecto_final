@@ -3,6 +3,17 @@ proyecto_final_curso
  
  *Autor* Edgar Vazquez Ramirez
 
+ Descripcion 
+• 1986: Inicio del proyecto POTGRES
+• 1996: Renombramiento a PostgreSQL 6.0
+• 2005: Lanzamiento de PostgreSQL 8.0 (soporte nativo para Windows)
+• 2010: PostgreSQL 9.0 (replicación streaming, Hot Standby)
+• 2016: PostgreSQL 9.6 (mejoras en paralelización de consultas)
+• 2020: PostgreSQL 13 (optimización de índices, nuevas características de seguridad)
+
+Caracteristicas
+![img](./imagenes/Tiempo.jpg)
+
  Diseño de la base de datos
 
  La siginte base de datos esta diseñada para verificar algunas marcas de vehiculos con diferentes tipo de combustible que tipo de frenos tiene o tipo de traccion. 
@@ -109,3 +120,5 @@ ALTER TABLE IF EXISTS public.tbl_autos
     NOT VALID;
 
 END;
+
+# Consultas SQL
