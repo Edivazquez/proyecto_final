@@ -206,7 +206,7 @@ Paso 5: Ejecutar la Copia de Seguridad
 
  ## Optimizando consultas
 
-    # Objetivo
+    Objetivo
 
 Optimizar el rendimiento de PostgreSQL y sus consultas mediante técnicas de ajuste, manejo de transacciones y uso eficiente de índices.
 
