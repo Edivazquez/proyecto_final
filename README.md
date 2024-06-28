@@ -242,7 +242,7 @@ Análisis de la Consulta Actual:
 
 Ejecuta la consulta en pgAdmin utilizando EXPLAIN ANALYZE.
 
-    EXPLAIN ANALYZE SELECT * FROM empleados WHERE nombre = 'Juan';
+![img](./imagenes/explain%20analyze.png)    
 
     Crear un Índice:
 
