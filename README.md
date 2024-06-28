@@ -22,8 +22,6 @@ Creación y uso de vistas
 Comandos básicos y avanzados
 Aperendi en clase a crear una tabla desde SQL Shell
 
-Comandos básicos y avanzados
-Aperendi en clase a crear una tabla desde SQL Shell
  ![img](./imagenes/Captura%20de%20pantalla%202024-06-17%20115303.png)
 
  
@@ -138,7 +136,7 @@ ALTER TABLE IF EXISTS public.tbl_autos
 END;
 ```
  ![img](./imagenes/creacion%20de%20tablas.png)
- 
+
  ## Configuración del entorno SQL
 
  
