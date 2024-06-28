@@ -165,11 +165,6 @@ Aperendi en clase a crear una tabla desde SQL Shell
  ![img](./imagenes/Captura%20de%20pantalla%202024-06-17%20115303.png)
 
 
-creacion de tablas en pgadmin
-
- ![img](./imagenes/creacion%20de%20tablas.png)
-
- 
  ## Gestión de usuarios
  los términos “usuarios”, “grupos” y “roles” los usuarios tienen permiso para iniciar sesión de forma predeterminada "superusuario".
 Puedes crear un usuario utilizando la siguiente instrucción SQL:
