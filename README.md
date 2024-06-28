@@ -231,27 +231,28 @@ Tipos de Índices
 - GiST, GIN, SP-GiST: Útiles para búsquedas complejas y tipos de datos específicos.
 - BRIN: Eficiente para columnas que tienen datos ordenados de manera natural.
 
+  Crear un Índice:
+
+![img](./imagenes/creamos%20un%20indice.png)
+
     Análisis y Reestructuración de Consultas
 Análisis de Consultas con EXPLAIN
 El comando EXPLAIN muestra el plan de ejecución que PostgreSQL utilizará para una consulta. EXPLAIN ANALYZE ejecuta la consulta y muestra tiempos reales.
 
-EXPLAIN ANALYZE SELECT * FROM tabla WHERE nombre_columna = 'valor';
+ Creamos una consulta 
+![img](./imagenes/1.-%20consulta%20de%20ordenes.png)
 
 Ejemplo Completo de Optimización
-Análisis de la Consulta Actual:
 
-Ejecuta la consulta en pgAdmin utilizando EXPLAIN ANALYZE.
+Ejecuta la consulta utilizando EXPLAIN ANALYZE.
 
 ![img](./imagenes/explain%20analyze.png)    
 
-    Crear un Índice:
-
-![img](./imagenes/creamos%20un%20indice.png)
+  
 
 Si el análisis muestra un escaneo secuencial, crea un índice en la columna nombre.
 
-    Creamos una consulta 
-![img](./imagenes/1.-%20consulta%20de%20ordenes.png)
+   
 
 
  ## Preparando un proceso de réplica y alta disponibilidad
