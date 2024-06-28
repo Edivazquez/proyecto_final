@@ -229,7 +229,6 @@ Tipos de Índices
 
 
 ![img](./imagenes/creacion%20de%20index%202.png)    
-
  
     Análisis y Reestructuración de Consultas
 Análisis de Consultas con EXPLAIN
@@ -238,13 +237,14 @@ El comando EXPLAIN muestra el plan de ejecución que PostgreSQL utilizará para 
  Creamos una consulta 
 ![img](./imagenes/explain%20analyze.png)
 
+Creacion de indice
+![img](./imagenes/creacion%20de%20index%202.png)
 
+Análisis de Consultas con EXPLAIN
+
+![img](./imagenes/explain%20analize%202.png)
 
   
-
-Si el análisis muestra un escaneo secuencial, crea un índice en la columna nombre.
-
-   
 
 
  ## Preparando un proceso de réplica y alta disponibilidad
