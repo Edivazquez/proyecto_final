@@ -134,7 +134,7 @@ Instalación de PostgreSQL y PgAdmin 4
 
 Comandos básicos y avanzados
 Aperendi en clase a crear una tabla desde SQL Shell
- ![img](./imagenes/Captura%20de%20pantalla%202024-06-17%20113140.png)
+ ![img](./imagenes/Captura%20de%20pantalla%202024-06-17%20115303.png)
 
 
 
@@ -144,7 +144,7 @@ Navegación y administración básica
 
 
  # Diseño de la base de datos
- ![img](./imagenes/Captura%20de%20pantalla%202024-06-17%20115303.png)
+ ![img](./imagenes/proyecto.pgerd.png)
 
 
 # Consultas SQL
