@@ -13,6 +13,19 @@ proyecto_final_curso
 
 ## 1.- Obtención de datos
 
+Creación y uso de vistas
+
+ ![img](./imagenes/proyecto.pgerd.png)
+ ![img](./imagenes/creacion%20de%20tablas.png)
+
+Comandos básicos y avanzados
+Aperendi en clase a crear una tabla desde SQL Shell
+
+Comandos básicos y avanzados
+Aperendi en clase a crear una tabla desde SQL Shell
+ ![img](./imagenes/Captura%20de%20pantalla%202024-06-17%20115303.png)
+
+ 
 ![img](./imagenes/Tiempo.jpg)
 
  Diseño de la base de datos
@@ -127,9 +140,7 @@ END;
  ## Configuración del entorno SQL
 
  
-Comandos básicos y avanzados
-Aperendi en clase a crear una tabla desde SQL Shell
- ![img](./imagenes/Captura%20de%20pantalla%202024-06-17%20115303.png)
+
 
 ## Diseño de la base de datos
 
@@ -187,10 +198,7 @@ Llaves primarias y foráneas
 - GIN, 
 cada uno adaptado a diferentes tipos de consultas.
 
-Creación y uso de vistas
 
- ![img](./imagenes/proyecto.pgerd.png)
- ![img](./imagenes/creacion%20de%20tablas.png)
 
  
  ## Gestión de usuarios
