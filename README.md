@@ -22,7 +22,7 @@ Los datos los obtuve fueron de la [pagina](https://coche.car2db.com/excel/) la p
 
 # 1.- Modelado de Datos
 
-* Modelo Conceptual:
+   Modelo Conceptual:
 
 El diagrama de entidad-relación (DER) 
 Define las entidades, atributos y relaciones.
@@ -170,28 +170,6 @@ creacion de tablas en pgadmin
  ![img](./imagenes/creacion%20de%20tablas.png)
 
  
-
-## Diseño de la base de datos
-
-
-# 2.- Relaciones y Llaves
-
-Llaves primarias y foráneas
-
-1.- Llave Primaria (Primary Key):
-
-* Es un campo o conjunto de campos en una tabla que identifica de manera única cada registro.
-* Garantiza que no haya duplicados y permite un acceso rápido a los datos.
-* Por ejemplo, en una tabla de “Clientes”, el campo “ID de cliente” podría ser la llave primaria.
-
-2.- Llave Foránea (Foreign Key):
-* La llave foránea es un campo en una tabla que se relaciona con la llave primaria de otra tabla.
-* Establece una conexión entre dos tablas, permitiendo consultas y operaciones relacionales.
-* Por ejemplo, en una tabla de “Pedidos”, el campo “ID de cliente” podría ser una llave foránea que se relaciona con la tabla de “Clientes”.
-
-
-
-
  ## Gestión de usuarios
  los términos “usuarios”, “grupos” y “roles” los usuarios tienen permiso para iniciar sesión de forma predeterminada "superusuario".
 Puedes crear un usuario utilizando la siguiente instrucción SQL:
