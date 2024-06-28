@@ -15,7 +15,30 @@ proyecto_final_curso
 
 ## 1.- Obtención de datos
 
-Creación y uso de vistas
+# 1.- Modelado de Datos
+
+* Modelo Conceptual:
+
+El diagrama de entidad-relación (DER) 
+Define las entidades, atributos y relaciones.
+ Por ejemplo:
+Entidades: Cliente, Producto, Pedido.
+Atributos: ID, Nombre, Precio.
+Relaciones: Cliente realiza Pedido, Pedido contiene Producto.
+
+* Modelo Lógico:
+Traduce el modelo conceptual a un modelo lógico utilizando el modelo relacional.
+Define tablas, claves primarias y foráneas.
+Normaliza las tablas para evitar redundancia y anomalías.
+
+
+* Modelo Físico:
+Decide sobre el motor de base de datos (PostgreSQL).
+Crea las tablas en SQL con las columnas y restricciones adecuadas.
+
+* Integridad y Seguridad:
+Agrega restricciones de integridad (claves primarias, foráneas, restricciones UNIQUE, etc.).
+Define permisos de acceso para usuarios y roles.
 
  ![img](./imagenes/proyecto.pgerd.png)
 
@@ -144,30 +167,7 @@ END;
 
 ## Diseño de la base de datos
 
-# 1.- Modelado de Datos
 
-* Modelo Conceptual:
-
-El diagrama de entidad-relación (DER) 
-Define las entidades, atributos y relaciones.
- Por ejemplo:
-Entidades: Cliente, Producto, Pedido.
-Atributos: ID, Nombre, Precio.
-Relaciones: Cliente realiza Pedido, Pedido contiene Producto.
-
-* Modelo Lógico:
-Traduce el modelo conceptual a un modelo lógico utilizando el modelo relacional.
-Define tablas, claves primarias y foráneas.
-Normaliza las tablas para evitar redundancia y anomalías.
-
-
-* Modelo Físico:
-Decide sobre el motor de base de datos (PostgreSQL).
-Crea las tablas en SQL con las columnas y restricciones adecuadas.
-
-* Integridad y Seguridad:
-Agrega restricciones de integridad (claves primarias, foráneas, restricciones UNIQUE, etc.).
-Define permisos de acceso para usuarios y roles.
 # 2.- Relaciones y Llaves
 
 Llaves primarias y foráneas
