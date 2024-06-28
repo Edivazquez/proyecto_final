@@ -15,6 +15,9 @@ proyecto_final_curso
 
 ## 1.- Obtención de datos
 
+![img](./imagenes/descargar%20base%20de%20datos.png)
+Los datos los obtuve fueron de la [pagina](https://coche.car2db.com/excel/) la pag. permite descargar varias bases de datos. 
+
 # 1.- Modelado de Datos
 
 * Modelo Conceptual:
@@ -162,10 +165,7 @@ creacion de tablas en pgadmin
 
  ![img](./imagenes/creacion%20de%20tablas.png)
 
- ## Configuración del entorno SQL
-
  
-
 
 ## Diseño de la base de datos
 
