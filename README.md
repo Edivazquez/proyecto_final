@@ -47,12 +47,6 @@ Define permisos de acceso para usuarios y roles.
 
  ![img](./imagenes/proyecto.pgerd.png)
 
-Comandos básicos y avanzados
-Aperendi en clase a crear una tabla desde SQL Shell
-
- ![img](./imagenes/Captura%20de%20pantalla%202024-06-17%20115303.png)
-
- 
 
 
  Diseño de la base de datos
@@ -163,6 +157,14 @@ ALTER TABLE IF EXISTS public.tbl_autos
 
 END;
 ```
+ Configuración del entorno SQL
+
+Comandos básicos y avanzados
+Aperendi en clase a crear una tabla desde SQL Shell
+
+ ![img](./imagenes/Captura%20de%20pantalla%202024-06-17%20115303.png)
+
+
 creacion de tablas en pgadmin
 
  ![img](./imagenes/creacion%20de%20tablas.png)
