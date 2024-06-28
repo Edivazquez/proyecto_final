@@ -123,7 +123,24 @@ ALTER TABLE IF EXISTS public.tbl_autos
 END;
 
  ## Sesión 02: Arquitectura y Componentes Internos de PostgreSQL
- #Comprender la estructura general del servidor PostgreSQL y las bases de datos.
+ 
+
+## Sesión 03: Herramientas y Utilidades (PSQL & PgAdmin 4)
+
+Instalación de PostgreSQL y PgAdmin 4
+
+* Instalación en Windows
+
+
+Comandos básicos y avanzados
+Aperendi en clase a crear una tabla desde SQL Shell
+ ![img](./imagenes/Captura%20de%20pantalla%202024-06-17%20113140.png)
+
+
+
+Interfaz de usuario
+Navegación y administración básica
+
 
 
  # Diseño de la base de datos
