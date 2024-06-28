@@ -201,7 +201,7 @@ Paso 5: Ejecutar la Copia de Seguridad
 
  ## Optimizando consultas
 
-    Objetivo
+    # Objetivo
 
 Optimizar el rendimiento de PostgreSQL y sus consultas mediante técnicas de ajuste, manejo de transacciones y uso eficiente de índices.
 
@@ -226,6 +226,12 @@ Tipos de Índices
 - GiST, GIN, SP-GiST: Útiles para búsquedas complejas y tipos de datos específicos.
 - BRIN: Eficiente para columnas que tienen datos ordenados de manera natural.
 
+Ejemplo Completo de Optimización
+
+Ejecuta la consulta utilizando EXPLAIN ANALYZE.
+
+![img](./imagenes/creacion%20de%20index%202.png)    
+
   Crear un Índice:
 
 ![img](./imagenes/creamos%20un%20indice.png)
@@ -237,11 +243,7 @@ El comando EXPLAIN muestra el plan de ejecución que PostgreSQL utilizará para 
  Creamos una consulta 
 ![img](./imagenes/1.-%20consulta%20de%20ordenes.png)
 
-Ejemplo Completo de Optimización
 
-Ejecuta la consulta utilizando EXPLAIN ANALYZE.
-
-![img](./imagenes/explain%20analyze.png)    
 
   
 
