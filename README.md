@@ -246,6 +246,8 @@ Ejecuta la consulta en pgAdmin utilizando EXPLAIN ANALYZE.
 
     Crear un Índice:
 
+![img](./imagenes/creamos%20un%20indice.png)
+
 Si el análisis muestra un escaneo secuencial, crea un índice en la columna nombre.
 
     Creamos una consulta 
