@@ -157,11 +157,7 @@ Crea las tablas en SQL con las columnas y restricciones adecuadas.
 * Integridad y Seguridad:
 Agrega restricciones de integridad (claves primarias, foráneas, restricciones UNIQUE, etc.).
 Define permisos de acceso para usuarios y roles.
-
- ![img](./imagenes/proyecto.pgerd.png)
- ![img](./imagenes/creacion%20de%20tablas.png)
-
- # 2.- Relaciones y Llaves
+# 2.- Relaciones y Llaves
 
 Llaves primarias y foráneas
 
@@ -186,24 +182,27 @@ Llaves primarias y foráneas
 * Existen varios tipos de índices, como 
 
 - B-tree: (ARBOL):
-Se ajustan a las situaciones más comunes. también al definir una Clave Primaria (PRIMARY KEY) sobre el campo de una tabla, este en sí se constituye como un índice, generando una restricción que impide que este campo se repita (UNIQUE) y que contenga valores nulos (NOT  NULL).
 - Hash, 
-GiST  
-GIN, 
+- GiST  
+- GIN, 
 cada uno adaptado a diferentes tipos de consultas.
 
 Creación y uso de vistas
 
+ ![img](./imagenes/proyecto.pgerd.png)
+ ![img](./imagenes/creacion%20de%20tablas.png)
 
-
- ## Diseño de la base de datos
-
-
-
-
-
-
+ 
  ## Gestión de usuarios
+ los términos “usuarios”, “grupos” y “roles” los usuarios tienen permiso para iniciar sesión de forma predeterminada "superusuario".
+Puedes crear un usuario utilizando la siguiente instrucción SQL:
+Creamos un usario, debemos estar conectados como super usario para poder dar privilegios, ponemos el nombre del usario que queremos crear. 
+
+ ![img](./imagenes/crear%20roles%20.png)
+
+ ![img](./imagenes/ponemos%20contraseña%20al%20rol.png)
+
+   ![img](./imagenes/privilegios%20de%20roles.png)
 
 
 
