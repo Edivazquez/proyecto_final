@@ -217,25 +217,24 @@ Creamos un usario, debemos estar conectados como super usario para poder dar pri
 
  ## Creando una copia de seguridad
 
- Crear y restaurar copias de seguridad en pgAdmin es una tarea esencial para la gestión de bases de datos PostgreSQL. Siguiendo los pasos descritos, puedes asegurar que tus datos estén protegidos y sean recuperables en caso de fallos o pérdida de datos.
+ Crear y restaurar copias de seguridad es una gestión de bases de datos, podemos asegurar los datos que esten protegidos y sean recuperables en caso de fallos o pérdida de datos.
 
-Ejemplo Visual Paso a Paso
-A continuación se describen los pasos con mayor detalle visual:
+Ejemplo Paso a Paso
+Se describen los pasos para mayor detalle:
 
 Paso 1: Abrir pgAdmin y Conectarse al Servidor
 
-![img](./imagenes/crear%20roles%20.png)
-
 Paso 2: Seleccionar la Base de Datos
-
-![img](./imagenes/crear%20una%20copia%20de%20seguridad%20backop.png)
 
 Paso 3: Abrir el Menú de Copia de Seguridad
 
+![img](./imagenes/crear%20una%20copia%20de%20seguridad%20backop.png)
+
 Paso 4: Configurar la Copia de Seguridad
 
-Paso 5: Ejecutar la Copia de Seguridad
+![img](./imagenes/PERMISOS%20PARA%20BACKUP.png)
 
+Paso 5: Ejecutar la Copia de Seguridad
 
 
 
