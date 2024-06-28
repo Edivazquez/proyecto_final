@@ -31,17 +31,17 @@ Por ejemplo:
 * Atributos: ID, Nombre, Precio.
 * Relaciones: Cliente realiza Pedido, Pedido contiene Producto.
 
-* Modelo Lógico:
+    Modelo Lógico:
 Traduce el modelo conceptual a un modelo lógico utilizando el modelo relacional.
 Define tablas, claves primarias y foráneas.
 Normaliza las tablas para evitar redundancia y anomalías.
 
 
-* Modelo Físico:
+     Modelo Físico:
 Decide sobre el motor de base de datos (PostgreSQL).
 Crea las tablas en SQL con las columnas y restricciones adecuadas.
 
-* Integridad y Seguridad:
+    Integridad y Seguridad:
 Agrega restricciones de integridad (claves primarias, foráneas, restricciones UNIQUE, etc.).
 Define permisos de acceso para usuarios y roles.
 
