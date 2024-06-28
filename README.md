@@ -189,18 +189,7 @@ Llaves primarias y foráneas
 * Establece una conexión entre dos tablas, permitiendo consultas y operaciones relacionales.
 * Por ejemplo, en una tabla de “Pedidos”, el campo “ID de cliente” podría ser una llave foránea que se relaciona con la tabla de “Clientes”.
 
-# Tipos de índices y su uso
 
-1.- Índices (Indexes):
-* Los índices son estructuras que mejoran la velocidad de las consultas en una tabla.
-* Para crear un índice en PostgreSQL, puedes usar la sentencia CREATE INDEX.
-* Existen varios tipos de índices, como 
-
-- B-tree: (ARBOL):
-- Hash, 
-- GiST  
-- GIN, 
-cada uno adaptado a diferentes tipos de consultas.
 
 
  ## Gestión de usuarios
@@ -237,10 +226,28 @@ Paso 4: Configurar la Copia de Seguridad
 Paso 5: Ejecutar la Copia de Seguridad
 
 
-
  ## Optimizando consultas
 
+# Tipos de índices y su uso
 
+* Configura los parámetros de PostgreSQL para optimizar el rendimiento:
+- shared_buffers: Asigna memoria a los búferes compartidos.
+- work_mem: Ajusta la memoria para operaciones de ordenamiento y hash.
+- effective_cache_size: Define la memoria para el almacenamiento en caché de datos.
+
+1.- Índices (Indexes):
+
+CREATE INDEX idx_nombre_columna ON tabla (nombre_columna);
+
+* Los índices son estructuras que mejoran la velocidad de las consultas en una tabla.
+* Para crear un índice en PostgreSQL, puedes usar la sentencia CREATE INDEX.
+* Existen varios tipos de índices, como 
+
+- B-tree: (ARBOL):
+- Hash, 
+- GiST  
+- GIN, 
+cada uno adaptado a diferentes tipos de consultas.
 
 
  ## Preparando un proceso de réplica y alta disponibilidad
