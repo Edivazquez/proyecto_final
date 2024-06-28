@@ -239,6 +239,9 @@ Análisis de Consultas con EXPLAIN
 
 ![img](./imagenes/explain%20analize%202.png)
 
+Consulta con JOIN
+![img](./imagenes/consulta%20con%20JOIN.png)
+
 
  ## Preparando un proceso de réplica y alta disponibilidad
 
