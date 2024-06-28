@@ -232,6 +232,7 @@ El comando EXPLAIN muestra el plan de ejecución que PostgreSQL utilizará para 
 ![img](./imagenes/explain%20analyze.png)
 
 Creacion de indice
+
 ![img](./imagenes/creacion%20de%20index%202.png)
 
 Análisis de Consultas con EXPLAIN
