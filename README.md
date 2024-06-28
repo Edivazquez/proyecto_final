@@ -189,8 +189,6 @@ Llaves primarias y foráneas
 * Establece una conexión entre dos tablas, permitiendo consultas y operaciones relacionales.
 * Por ejemplo, en una tabla de “Pedidos”, el campo “ID de cliente” podría ser una llave foránea que se relaciona con la tabla de “Clientes”.
 
-## 3.- Indices y Vistas
-
 # Tipos de índices y su uso
 
 1.- Índices (Indexes):
@@ -205,8 +203,6 @@ Llaves primarias y foráneas
 cada uno adaptado a diferentes tipos de consultas.
 
 
-
- 
  ## Gestión de usuarios
  los términos “usuarios”, “grupos” y “roles” los usuarios tienen permiso para iniciar sesión de forma predeterminada "superusuario".
 Puedes crear un usuario utilizando la siguiente instrucción SQL:
@@ -216,14 +212,30 @@ Creamos un usario, debemos estar conectados como super usario para poder dar pri
 
  ![img](./imagenes/ponemos%20contraseña%20al%20rol.png)
 
-   ![img](./imagenes/privilegios%20de%20roles.png)
-
-
-
-
+ ![img](./imagenes/privilegios%20de%20roles.png)
 
 
  ## Creando una copia de seguridad
+
+ Crear y restaurar copias de seguridad en pgAdmin es una tarea esencial para la gestión de bases de datos PostgreSQL. Siguiendo los pasos descritos, puedes asegurar que tus datos estén protegidos y sean recuperables en caso de fallos o pérdida de datos.
+
+Ejemplo Visual Paso a Paso
+A continuación se describen los pasos con mayor detalle visual:
+
+Paso 1: Abrir pgAdmin y Conectarse al Servidor
+
+![img](./imagenes/crear%20roles%20.png)
+
+Paso 2: Seleccionar la Base de Datos
+
+![img](./imagenes/crear%20una%20copia%20de%20seguridad%20backop.png)
+
+Paso 3: Abrir el Menú de Copia de Seguridad
+
+Paso 4: Configurar la Copia de Seguridad
+
+Paso 5: Ejecutar la Copia de Seguridad
+
 
 
 
